@@ -1,0 +1,20 @@
+{
+    "name": "zodyac/rate-limiter",
+    "description": "Rate limiter",
+    "keywords": ["security", "api"],
+    "homepage": "http://jadu.github.io",
+    "license": "NCSA",
+    "authors": [
+        {
+            "name": "Tom Graham",
+            "email": "tom.graham@jadu.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "zodyac/cache": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Zodyac\\RateLimiter": "src/" }
+    }
+}
